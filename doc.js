@@ -21,4 +21,5 @@ li[1].style.backgroundColor='red'
 
 var input = document.querySelector('input');
 input.value = 'Please Enter Here'
+console.log(input);
 
