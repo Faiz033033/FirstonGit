@@ -15,11 +15,24 @@
  //   items[i].style.fontWeight='bold';
 
 //}
-var li = document.getElementsByTagName('li');
+/* var li = document.getElementsByTagName('li');
 console.log(li);
-li[1].style.backgroundColor='red'
+li[1].style.backgroundColor='red' */
+
+/* var header = document.querySelector('main-header');
+header.style.borderBottom = 'solid 8px #cccc' ;
+
 
 var input = document.querySelector('input');
 input.value = 'Please Enter Here'
-console.log(input);
+console.log(input); */
+
+var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.Color = 'green';
+
+var odd = document.querySelectorAll('li:nth-child(odd)');
+for(var i=0; i < odd.length; i++){
+    odd[i].style.backgroundColor = 'green';
+}
+
 
